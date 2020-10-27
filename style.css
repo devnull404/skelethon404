@@ -1,0 +1,113 @@
+html {
+    font-family: helvetica;
+}
+
+.main {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 97%;
+    height: 90%;
+    padding: 0px;
+}
+
+.left-menu {
+    width: 25%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.left-menu h2 {
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.left-menu h2:hover {
+    background-color: rgba(0, 238, 255, 0.064);
+}
+
+.right-menu {
+    display: inline-flex;
+    width: 25%;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.middle-menu {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+#upper-middle {
+    position: -webkit-sticky;
+    top: 0;
+    padding: 10px;
+    height: 10%;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#bottom-middle {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    height: 85%;
+}
+
+.upper-head {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8%;
+    width: 99%;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.content {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.content img {
+    border-radius: 50%;
+    border: 5px solid rgb(0, 195, 255);
+    filter: blur(2px);
+    transition: filter 0.5s ease-in-out;
+}
+.content img:hover {
+    filter: blur(0);
+}
+
+.upper-head input {
+    border-radius: 30px;
+    border: none;
+    background-color: whitesmoke;
+    height: 80%;
+    width: 200px;
+    transition: width 0.5s ease-in-out;
+}
+
+.upper-head input:focus {
+    width: 280px;
+}
